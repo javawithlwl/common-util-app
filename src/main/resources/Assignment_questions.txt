@@ -1,0 +1,45 @@
+Activity:
+
+    id
+    ActivityType
+    place
+    date
+    startTime
+    endTime
+    maxCount
+    amount
+
+Player:
+
+    id
+    name
+    email
+    mobile
+
+Payment
+
+    activityId
+    playerId
+    amount
+
+Report Data:
+
+    Activity:
+    1  Krish   date time  160 160 paid
+    2  Satya   date time  160 0   not paid
+
+    Player
+
+    1 Krish  5    160 (Balance)
+
+
+    Player Activity
+
+    1  place date time paid
+    2.
+    3. place date time not paid
+
+Enum Activity Type
+    BADMINTON, CRICKET, FOOTBALL
+
+
